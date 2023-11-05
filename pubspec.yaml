@@ -1,0 +1,81 @@
+name: recipesharing
+description: This project is an application to sharing recipes
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  dio: ^5.3.3
+  get_it: ^7.6.4
+  font_awesome_flutter: ^10.6.0
+  intl: ^0.18.1
+  flutter_screenutil: ^5.9.0
+  shared_preferences: ^2.2.2
+  gap: ^3.0.1
+  flutter_svg: ^2.0.9
+  lottie: ^2.7.0
+  flutter_native_splash: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  bloc_test: ^9.1.5
+  mocktail: ^1.0.1
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/pngs/
+    - assets/images/svgs/
+    - assets/icons/pngs/
+    - assets/icons/svgs/
+    - assets/lotties/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/extra_light.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/semi_bold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/extra_bold.ttf
+          weight: 800
+
+flutter_native_splash:
+  color: "#71b1a1"
+  image: assets/images/pngs/splash.png
+  android: true
+  ios: true
+  android_12:
+    image: assets/images/pngs/splash.png
+    icon_background_color: "#71b1a1"
+    image_dark: assets/images/pngs/splash.png
+    icon_background_color_dark: "#71b1a1"

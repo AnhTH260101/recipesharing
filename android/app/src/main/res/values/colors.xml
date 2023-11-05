@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+s
+    <!-- Base application colors -->
+    <color name="primary">#FFC107</color>  <!-- Primary branding color (amber) -->
+    <color name="primary_dark">#FFA000</color>  <!-- Dark variant of the primary color -->
+    <color name="primary_light">#FFECB3</color>  <!-- Light variant of the primary color -->
+    <color name="accent">#FF4081</color>  <!-- Secondary accent color (pink) -->
+
+    <!-- For simplicity, we're using the same color for both primary text and icons -->
+    <color name="primary_text">#212121</color>  <!-- Text color for primary content -->
+    <color name="secondary_text">#757575</color>  <!-- Text color for secondary content -->
+
+    <!-- Divider color -->
+    <color name="divider">#BDBDBD</color>
+
+    <!-- Status bar color (usually the same as primary_dark) -->
+    <color name="status_bar">#FFA000</color>
+
+    <!-- Default colors for backgrounds, cards, etc -->
+    <color name="background">#FFFFFF</color>  <!-- Background color for screens / views -->
+    <color name="card_background">#F5F5F5</color>  <!-- Background color for cards -->
+
+    <!-- Error color used for things like error messages -->
+    <color name="error">#B00020</color>
+
+    <!-- Colors for buttons -->
+    <color name="button_color">#FFC107</color>  <!-- Color for buttons -->
+    <color name="button_text_color">#FFFFFF</color>  <!-- Text color for buttons -->
+
+</resources>
